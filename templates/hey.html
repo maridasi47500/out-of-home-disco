@@ -1,22 +1,20 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: beinvenue
+{% endblock %}
+{% block content %}
 <h1># out-of-home-disco</h1>
-<div>
-choisis un job
-<select>
-<option>technicien systeme et reseau</option>
-<option>ingenieur systeme et reseau</option>
-</select>
-</div>
-<div>
-choisis un style de musique
-<select>
-<option>rock</option>
-<option>electro music</option>
-</select>
-</div>
-<div>
-choisis un morceau pour un concert
-<select>
-<option>student concerto</option>
-<option>chamber music</option>
-</select>
-</div>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : va à la  disco
+- tu as trouvé un job : système et reseau
+-  tu choisis un style de music
+- Airbnb logement : entraîne toi à jouer des morceaux accompagnés avec piano dans un concert (play it, )
+- Dan sle logement :ecoute la radio , ecoute de la music, joue de la musique
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
