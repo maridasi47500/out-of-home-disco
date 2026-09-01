@@ -1,9 +1,9 @@
 # out-of-home-disco
 hey
 - out of home music ou concert
-- va a  disco
-- systeme et reseau
+- Airbnb experience : va à la  disco
+- trouvé un job : système et reseau
 - style music
-- morvceau dans un concert (play it, )
-- ecoute radio , ecoute music
+- Airbnb logement : entraîne toi à jouer des morceaux accompagnés avec piano dans un concert (play it, )
+- Dan sle logement :ecoute radio , ecoute music
 - 
